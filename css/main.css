@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -133,5 +134,128 @@ ul {
   .hero__button {
     margin: 0px 460px 0px 470px;
     padding: 12px 11px 13px 9px;
+  }
+}
+
+.photo__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: #333333;
+  margin: 60px 19px 14px 13px;
+}
+@media screen and (min-width: 768px) {
+  .photo__title {
+    font-size: 22px;
+    margin-bottom: 31px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .photo__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .photo__list {
+    gap: 37px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .photo__item {
+    margin-bottom: 68px;
+    max-width: 220px;
+  }
+}
+.photo__prétitle {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14.01px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: #333333;
+  margin: 13px 0px 13px 0px;
+}
+@media screen and (min-width: 768px) {
+  .photo__prétitle {
+    margin: 15px 0px 15px 0px;
+  }
+}
+.photo__text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14.01px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: #666666;
+  margin: 0px 0px 27px 0px;
+}
+@media screen and (min-width: 768px) {
+  .photo__text {
+    margin: 0px 0px 57px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .photo__text {
+    margin: 0px 0px 0px 0px;
+  }
+}
+.photo__img {
+  margin: 0px 100px 0px;
+}
+@media screen and (min-width: 768px) {
+  .photo__img {
+    margin: 0px 50px 0px;
+  }
+}
+.photo__button {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: #ff4e50;
+  border: 2px solid #ff4e50;
+  background-color: #ffffff;
+  padding: 11px 59px 12px;
+  border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .photo__button {
+    padding: 12px 17px 13px 16px;
+    margin: 0px 273px 39px 270px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .photo__button {
+    padding: 12px 17px 13px 16px;
+    margin: 0px 495px 72px 495px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .photo__item:nth-child(2n) {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .photo__item:nth-child(2n) {
+    margin-left: 0px;
   }
 }
